@@ -7,8 +7,7 @@ public class GrowthRate {
 		Scanner input = new Scanner(System.in);
 
 		double growthRate = 1.2;
-		
-		System.out.printf("A taxa de crescimento mundial anual é de 1.2 Porcento ...\n");
+		System.out.printf("A média da taxa de crescimento mundial anual é de 1.2 Porcento ...\n");
 		System.out.printf("A população mundial é em média 7.501.555,515 pessoas...\n");
 		double worldPeople = 7501555.51;
 		double growthOneYear = worldPeople + ((worldPeople * 1.2)/100);
