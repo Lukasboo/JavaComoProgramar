@@ -60,6 +60,14 @@ public class Invoice {
 	public double getInvoiceAmount() {
 		return valorUnitario * quantidade;
 	}
-		
+
+	public void displayMessage() {
+		System.out.printf("Número do Item: " + numero + "\n");
+		System.out.printf("Quantidade: " + quantidade + "\n");
+		System.out.printf("Descrição: " + descricao + "\n");
+		System.out.printf("Valor unitário: $%.2f", valorUnitario);
+		double buyValue = getInvoiceAmount();
+		System.out.printf("\nValor da compra 1: $%.2f \n", getInvoiceAmount());
+	}
 
 }

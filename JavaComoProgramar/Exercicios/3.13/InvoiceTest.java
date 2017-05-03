@@ -20,5 +20,8 @@ public class InvoiceTest {
 		System.out.printf("Descrição: " + invoice.getDescricao() + "\n");
 		System.out.printf("Valor unitário: $%.2f", invoice.getValorUnitario());
 		System.out.printf("\nValor da compra 1: $%.2f \n", buyValue);
+
+		Invoice invoice2 = new Invoice(2, "Teclado", 3, 20.00);
+		invoice2.displayMessage();
 	}
 }		
